@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/navbar";
-import CustomCursor from "@/components/custom-cursor";
+// import CustomCursor from "@/components/custom-cursor";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -21,7 +21,7 @@ export default function RootLayout({
       </head>
       <body>
         <div className="flex flex-col bg-black min-h-screen items-center relative  text-white">
-          <CustomCursor />
+          {/* <CustomCursor /> */}
           <Navbar />
           {children}
           <Footer />

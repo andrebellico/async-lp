@@ -38,7 +38,9 @@ export default function Page() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              <Button variant="default">QUERO FAZER MEU NEGÓCIO CRESCER</Button>
+              <Button href="/contato" variant="default">
+                QUERO FAZER MEU NEGÓCIO CRESCER
+              </Button>
               <Button variant="transparent">QUERO SABER MAIS</Button>
             </motion.div>
           </motion.section>
