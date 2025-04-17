@@ -15,6 +15,7 @@ const CustomCursor = () => {
 
   return (
     <div
+      className="hidden touch:block"
       style={{
         position: "fixed",
         top: position.y,

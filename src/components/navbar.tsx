@@ -14,7 +14,7 @@ import { usePathname } from "next/navigation";
 export default function Navbar() {
   const pathname = usePathname();
   return (
-    <nav className="flex justify-between absolute items-center w-[1200px] mt-7 border-[#20211F] border rounded-[50px] border-solid py-4 px-20 bg-[#070806]">
+    <nav className="flex justify-between fixed top-0 items-center w-full px-4 md:w-[1200px] md:px-20 mt-7 border-[#20211F] border rounded-[50px] border-solid py-4 bg-[#070806] z-50">
       <Link href="/">
         <Image src="/logo.png" alt="Logo" width={160} height={48} priority />{" "}
       </Link>

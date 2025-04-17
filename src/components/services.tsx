@@ -5,17 +5,17 @@ import { Service } from "@/types";
 
 export default function ServicesSection({ services }: { services: Service[] }) {
   return (
-    <div className="flex flex-col justify-between gap-24">
+    <div className="flex flex-col justify-between gap-12 md:gap-24">
       {services.map((service, i) => (
         <div
           key={i}
-          className="grid grid-cols-2 justify-between items-center gap-[100px]"
+          className="grid grid-cols-1 sm:grid-cols-2 justify-between items-center gap-12 md:gap-[100px]"
         >
           {i % 2 === 0 ? (
             <>
               <div className="flex flex-col gap-6 justify-center">
                 <Badge title={service.badge} />
-                <h2 className="text-6xl">
+                <h2 className="text-4xl md:text-5xl lg:text-6xl">
                   {service.title}{" "}
                   <span className="text-[#F85B93]">{service.subtitle}</span>
                 </h2>

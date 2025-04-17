@@ -17,7 +17,7 @@ export const sampleServices: Service[] = [
     subtitle: "estratégias",
     description:
       "Usamos técnicas de escrita, design e otimização do desempenho dos websites para garantir visibilidade acima da média para o teu negócio.",
-    image: "/Logo-grande-black.png",
+    image: "/client-vhs.png",
     alt: "Imagem do serviço 2",
   },
   {
@@ -26,7 +26,7 @@ export const sampleServices: Service[] = [
     subtitle: "vendas",
     description:
       "Nossos websites são cuidadosamente projetados e otimizados para proporcionar a melhor experiência ao usuário, com carregamento rápido e um design agradável, especialmente adaptado para dispositivos móveis.",
-    image: "/Logo-grande-black.png",
+    image: "/marcati-client.png",
     alt: "Imagem do serviço 2",
   },
   {
@@ -35,7 +35,7 @@ export const sampleServices: Service[] = [
     subtitle: "negócio",
     description:
       "Usamos técnicas de escrita, design e otimização do desempenho dos websites para garantir visibilidade acima da média para o teu negócio.Criamos websites que aparecem primeiro nas pesquisas do Google (SEO) e inspiram confiança em seus clientes. Em até uma semana entregamos um site da mais alta qualidade.",
-    image: "/Logo-grande-black.png",
+    image: "/victor-client.png",
     alt: "Imagem do serviço 2",
   },
 ];

@@ -8,10 +8,10 @@ interface DifferenceCardsProps {
 export default function DifferenceCards({ cards }: DifferenceCardsProps) {
   return (
     <div className="container mx-auto flex flex-col gap-10 items-center justify-center py-20">
-      <h2 className="text-[#FFFFFF] text-6xl text-center font-semibold">
+      <h2 className="text-[#FFFFFF] text-4xl md:text-5xl lg:text-6xl text-center font-semibold">
         Diferenciais
       </h2>
-      <div className="grid grid-cols-2 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
         {cards.map((card) => (
           <div
             key={card.title}

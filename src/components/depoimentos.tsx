@@ -21,20 +21,20 @@ export default function DepoimentosSection() {
     <section className=" text-white overflow-hidden relative">
       <div className="flex justify-center flex-col items-center text-center mb-12 px-4">
         <Badge title="Depoimentos" />
-        <h2 className="text-6xl md:text-5xl font-bold">
+        <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold">
           Veja o que nossos clientes falam sobre nossos serviços
         </h2>
       </div>
       <div className="relative w-full h-56 flex items-center justify-center">
-        <div className="absolute left-0 top-0 bottom-0 w-20 md:w-40 bg-gradient-to-r from-black to-transparent z-10"></div>
-        <div className="absolute right-0 top-0 bottom-0 w-20 md:w-40 bg-gradient-to-l from-black to-transparent z-10"></div>
+        <div className="absolute left-0 top-0 bottom-0 w-12 md:w-24 lg:w-40 bg-gradient-to-r from-black to-transparent z-10"></div>
+        <div className="absolute right-0 top-0 bottom-0 w-12 md:w-24 lg:w-40 bg-gradient-to-l from-black to-transparent z-10"></div>
         <div className="absolute left-0 flex animate-infinite-scroll group-hover:pause-animation">
           {depoimentos.map((data, index) => (
             <div
               key={index}
-              className="flex-shrink-0 w-full mx-8 md:mx-12 flex items-center justify-center h-full"
+              className="flex-shrink-0 w-full mx-8 md:mx-12 lg:mx-16 flex items-center justify-center h-full"
             >
-              <div className="bg-[#1e1e1e00] rounded-xl border border-neutral-700  hover:scale-105 hover:bg-neutral-900 transition-all duration-300 p-8 shadow-lg">
+              <div className="bg-[#1e1e1e00] rounded-xl border border-neutral-700 hover:scale-105 hover:bg-neutral-900 transition-all duration-300 p-8 shadow-lg">
                 <h3 className="text-2xl font-semibold text-white">
                   {data.name}
                 </h3>

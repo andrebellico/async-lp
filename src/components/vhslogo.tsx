@@ -5,7 +5,8 @@ export default function VHSLogo() {
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 80.301 20"
       height="30"
-      width="120"
+      width="100%"
+      className="max-w-[120px]"
       role="img"
       aria-label="VHS Logo"
     >

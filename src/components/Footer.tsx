@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <footer className="bg-black text-white py-12 mt-20 border-t w-full border-neutral-700">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 ">
           <div>
             <Link href="/" className="block mb-6">
               <Image
@@ -32,7 +32,7 @@ export default function Footer() {
                   className="text-2xl mt-12 hover:opacity-80 "
                 />
               </Link>
-              <Link href="https://www.instagram.com/vhsmultimidia/">
+              <Link href="https://api.whatsapp.com/send/?phone=5511919542750">
                 <FaWhatsapp
                   size={32}
                   className="text-2xl mt-12 hover:opacity-80"

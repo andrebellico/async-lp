@@ -5,11 +5,11 @@ import AnimatedClients from "../animated-clients";
 
 export default function AchievementsSection() {
   return (
-    <section className="flex flex-col justify-between gap-24 overflow-hidden relative">
-      <div className="grid grid-cols-2 justify-between items-center gap-[100px]">
+    <section className="flex flex-col justify-between gap-12 md:gap-24 overflow-hidden relative">
+      <div className="grid grid-cols-1 sm:grid-cols-2 justify-between items-center gap-12 md:gap-[100px]">
         <div className="flex flex-col gap-6 justify-center">
           <Badge title="Conquista" />
-          <h2 className="text-6xl">
+          <h2 className="text-4xl md:text-6xl">
             Destaque as <span className="text-[#F85B93]">conquistas</span> pelos
             <span className="text-[#F85B93]"> números</span>
           </h2>
@@ -18,7 +18,6 @@ export default function AchievementsSection() {
               Capacitando equipes, impulsionando o sucesso: o impacto da Saasta
               nos números
             </p>
-            <p>500+ Projetos concluídos</p>
           </div>
         </div>
         <div className="items-end justify-end text-end flex">
