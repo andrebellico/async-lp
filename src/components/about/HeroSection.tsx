@@ -1,6 +1,6 @@
 import React from "react";
 
-const HeroSection = () => {
+export default function HeroSection() {
   return (
     <section className="flex flex-col items-center h-[60vh] mt-20 justify-center gap-4">
       <h1 className="text-white text-6xl text-center">
@@ -14,6 +14,4 @@ const HeroSection = () => {
       </div>
     </section>
   );
-};
-
-export default HeroSection;
+}

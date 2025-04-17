@@ -23,7 +23,11 @@ export default function ServicesSection({ services }: { services: Service[] }) {
                   <p>{service.description}</p>
                 </div>
                 {service.button && (
-                  <Button variant="transparent" className="w-fit">
+                  <Button
+                    variant="transparent"
+                    className="w-fit"
+                    href="https://api.whatsapp.com/send/?phone=5511919542750"
+                  >
                     {service.button}
                   </Button>
                 )}
@@ -57,7 +61,11 @@ export default function ServicesSection({ services }: { services: Service[] }) {
                   <p>{service.description}</p>
                 </div>
                 {service.button && (
-                  <Button variant="transparent" className="w-fit">
+                  <Button
+                    variant="transparent"
+                    className="w-fit"
+                    href="https://api.whatsapp.com/send/?phone=5511919542750"
+                  >
                     {service.button}
                   </Button>
                 )}

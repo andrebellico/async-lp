@@ -1,8 +1,7 @@
-// src/components/about/ImageSection.tsx
 import React from "react";
 import Image from "next/image";
 
-const ImageSection = () => {
+export default function ImageSection() {
   return (
     <section>
       <Image
@@ -15,6 +14,4 @@ const ImageSection = () => {
       />
     </section>
   );
-};
-
-export default ImageSection;
+}

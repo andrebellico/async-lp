@@ -24,7 +24,7 @@ export function Button({
   };
 
   return href ? (
-    <Link href={href}>
+    <Link href={href} target="_blank">
       <button
         className={twMerge(baseStyle, variants[variant], className)}
         {...props}

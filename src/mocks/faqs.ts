@@ -1,26 +1,32 @@
 export const mockFaqs = [
   {
     id: "item-1",
-    question: "Como funciona o processo de consultoria?",
+    question: "Quais são os beneficios que a ASYNC pode trazer para a minha empresa? ",
     answer:
-      "Nosso processo começa com uma análise detalhada das suas necessidades, seguida pela criação de um plano estratégico personalizado e acompanhamento contínuo para garantir os melhores resultados.",
+      "A ASYNC é uma empresa especializada em desenvolvimento de sites, temos os melhores profissionais, que irão entregar seu site com o melhor desempenho, com as melhores técnica de escrita, e design incrivel, tornando assim a sua visibilidade melhor e aumentando as vendas da sua empresa.",
   },
   {
     id: "item-2",
-    question: "Quais são os principais diferenciais da Async?",
+    question: "O seu software de gerenciamento de projetos é adequado para equipes de todos os tamanhos?",
     answer:
-      "Nos destacamos pela nossa abordagem personalizada, foco em resultados mensuráveis e equipe de especialistas altamente qualificada e experiente no mercado.",
+      "Sim, nosso software de gerenciamento de projetos foi projetado para atender equipes de todos os tamanhos, desde pequenas startups até grandes empresas. Esteja você gerenciando algumas tarefas ou supervisionando projetos complexos com diversas partes interessadas",
   },
   {
     id: "item-3",
-    question: "Quanto tempo leva para ver os resultados?",
+    question: "Posso personalizar e integrar aplicações SaaS com outras ferramentas?",
     answer:
-      "O tempo para ver os resultados pode variar dependendo do projeto e dos objetivos, mas geralmente nossos clientes começam a notar melhorias significativas nas primeiras semanas de colaboração.",
+      "Sim, muitos aplicativos SaaS oferecem opções de personalização e integração para adaptá-los às necessidades e fluxos de trabalho do seu negócio.",
   },
   {
     id: "item-4",
-    question: "Vocês oferecem suporte contínuo?",
+    question: "O site será compatível com outros dispositivos?",
     answer:
-      "Sim, oferecemos suporte contínuo para garantir que as estratégias implementadas continuem gerando valor a longo prazo e se adaptem às mudanças do mercado.",
+      "Todos os websites que desenvolvemos são cuidadosamente projetados e testados para garantir total compatibilidade com uma ampla variedade de dispositivos, desde computadores desktop até smartphones e tablets. Isso significa que seu site será acessível e terá uma ótima aparência em qualquer dispositivo que seus visitantes estejam usando, proporcionando uma experiência consistente e envolvente em todas as plataformas.",
+  },
+  {
+    id: "item-5",
+    question: "Como eu solicito um orçamento?",
+    answer:
+      "Async oferece benefícios como economia, escalabilidade, acessibilidade e segurança, tornando-o uma escolha ideal para startups e pequenas empresas.",
   },
 ];

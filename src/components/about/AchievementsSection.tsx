@@ -3,7 +3,7 @@ import Image from "next/image";
 import Badge from "@/components/ui/badge";
 import AnimatedClients from "../animated-clients";
 
-const AchievementsSection = () => {
+export default function AchievementsSection() {
   return (
     <section className="flex flex-col justify-between gap-24 overflow-hidden relative">
       <div className="grid grid-cols-2 justify-between items-center gap-[100px]">
@@ -36,6 +36,4 @@ const AchievementsSection = () => {
       <AnimatedClients />
     </section>
   );
-};
-
-export default AchievementsSection;
+}

@@ -1,9 +1,10 @@
 "use client";
-import { Instagram, PhoneCall } from "lucide-react";
+import { Instagram } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { navLinks } from "./navbar";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function Footer() {
   const pathname = usePathname();
@@ -25,14 +26,14 @@ export default function Footer() {
               Transforme sua empresa de uma maneira que você irá se surpreender.
             </span>
             <div className="flex gap-4">
-              <Link href="https://www.instagram.com/vhsmultimidia/">
+              <Link href="https://www.instagram.com/asyncdevelopment/">
                 <Instagram
                   size={32}
                   className="text-2xl mt-12 hover:opacity-80 "
                 />
               </Link>
               <Link href="https://www.instagram.com/vhsmultimidia/">
-                <PhoneCall
+                <FaWhatsapp
                   size={32}
                   className="text-2xl mt-12 hover:opacity-80"
                 />

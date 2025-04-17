@@ -3,7 +3,7 @@ import React from "react";
 import Badge from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 
-const AboutUsSection = () => {
+export default function AboutUsSection() {
   return (
     <section className="flex flex-col justify-between gap-24">
       <div className="grid grid-cols-2 justify-between items-center gap-[100px]">
@@ -13,7 +13,12 @@ const AboutUsSection = () => {
             <span className="text-[#F85B93]">Revolucionando</span> o
             gerenciamento de projetos com Async
           </h2>
-          <Button className="w-fit">CONTATE-NOS</Button>
+          <Button
+            className="w-fit"
+            href="https://api.whatsapp.com/send/?phone=5511919542750"
+          >
+            CONTATE-NOS
+          </Button>
         </div>
         <div className="items-end justify-end text-end flex">
           <div className="text-[#C6C7C6] text-[16px] text-center leading-[28px] flex flex-col gap-4">
@@ -55,6 +60,4 @@ const AboutUsSection = () => {
       </div>
     </section>
   );
-};
-
-export default AboutUsSection;
+}

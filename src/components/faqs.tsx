@@ -16,7 +16,7 @@ export default function FaqsSection() {
       <Accordion
         type="single"
         collapsible
-        className="gap-5 w-full flex flex-col"
+        className="gap-5 w-full flex flex-col text-start"
       >
         {mockFaqs.map((faq) => (
           <AccordionItem key={faq.id} value={faq.id}>

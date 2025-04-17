@@ -31,7 +31,11 @@ export default function Navbar() {
           </Link>
         ))}
       </div>
-      <Button className="text-sm" variant="transparent">
+      <Button
+        className="text-sm"
+        variant="transparent"
+        href="https://api.whatsapp.com/send/?phone=5511919542750"
+      >
         CONTATE-NOS
       </Button>
     </nav>

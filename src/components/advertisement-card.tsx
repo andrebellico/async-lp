@@ -14,7 +14,12 @@ export default function AdCard() {
           A cada dia que você passa hesitando, é uma oportunidade a mais para
           seu concorrente.
         </span>
-        <Button variant="transparent">Quero uma Landing</Button>
+        <Button
+          variant="transparent"
+          href="https://api.whatsapp.com/send/?phone=5511919542750"
+        >
+          Quero uma Landing
+        </Button>
       </div>
     </div>
   );

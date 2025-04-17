@@ -29,10 +29,18 @@ export default function Page() {
                 confiança e atraem clientes
               </div>
               <div className="flex gap-2.5 mt-4">
-                <Button href="/contato" variant="default">
+                <Button
+                  href="https://api.whatsapp.com/send/?phone=5511919542750"
+                  variant="default"
+                >
                   QUERO FAZER MEU NEGÓCIO CRESCER
                 </Button>
-                <Button variant="transparent">QUERO SABER MAIS</Button>
+                <Button
+                  variant="transparent"
+                  href="https://api.whatsapp.com/send/?phone=5511919542750"
+                >
+                  QUERO SABER MAIS
+                </Button>
               </div>
             </section>
           </AnimatedSection>

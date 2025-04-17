@@ -6,10 +6,10 @@ interface AnimatedSectionProps {
   delay?: number;
 }
 
-const AnimatedSection: React.FC<AnimatedSectionProps> = ({
+export default function AnimatedSection({
   children,
   delay = 0,
-}) => {
+}: AnimatedSectionProps) {
   return (
     <motion.div
       initial={{ opacity: 0, y: 50 }}
@@ -20,6 +20,4 @@ const AnimatedSection: React.FC<AnimatedSectionProps> = ({
       {children}
     </motion.div>
   );
-};
-
-export default AnimatedSection;
+}
