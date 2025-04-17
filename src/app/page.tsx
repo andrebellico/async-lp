@@ -1,5 +1,4 @@
 "use client";
-import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import ClientsSection from "@/components/clients-section";
 import MethodAsync from "@/components/method-async";
@@ -37,56 +36,30 @@ export default function Page() {
               </div>
             </section>
           </AnimatedSection>
-          <motion.div
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
-          >
+          <AnimatedSection>
             <ClientsSection />
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.1 }} // Slight delay
-          >
+          </AnimatedSection>
+          <AnimatedSection delay={0.1}>
             <MethodAsync />
-          </motion.div>
-          <motion.section
-            id="services"
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.2 }} // Slight delay
-          >
+          </AnimatedSection>
+          <AnimatedSection delay={0.2}>
             <ServicesSection services={sampleServices} />
-          </motion.section>
-          <motion.div
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.3 }} // Slight delay
-          >
+          </AnimatedSection>
+          <AnimatedSection delay={0.3}>
             <DifferenceCards cards={sampleDifferenceCards} />
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.4 }} // Slight delay
-          >
+          </AnimatedSection>
+          <AnimatedSection delay={0.4}>
             <DepoimentosSection />
-          </motion.div>
-          <FaqsSection />
-          <motion.div
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.6 }} // Slight delay
-          >
+          </AnimatedSection>
+          <AnimatedSection>
+            <ClientsSection />
+          </AnimatedSection>
+          <AnimatedSection>
+            <FaqsSection />
+          </AnimatedSection>
+          <AnimatedSection delay={0.6}>
             <AdCard />
-          </motion.div>
+          </AnimatedSection>
         </main>
       </div>
     </>
