@@ -4,7 +4,7 @@ export default function MethodAsync() {
       <h2 className="text-[#FFFFFF] text-4xl md:text-5xl lg:text-6xl text-center ">
         Como Funciona o Método LP Async?
       </h2>
-      <div className="text-[16px] text-[#9C9C9B] max-w-[800px] leading-[28px] text-center">
+      <div className="text-[16px] text-[#9C9C9B] max-w-[800px]  text-center">
         Nosso método foi criado para resolver os obstáculos enfrentados por
         infoprodutores aos seus produtos online. Combinamos estratégias
         comprovadas, uma abordagem personalizada e tecnologias avançadas para

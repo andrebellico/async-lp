@@ -16,7 +16,7 @@ export const teamMembers: TeamMember[] = [
       imageSrc: "https://github.com/bezerra-lucas.png",
       fallback: "LU",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eius enim explicabo necessitatibus itaque.",
+        "Lucas Bezerra é o CEO e fundador da empresa, responsável pela visão estratégica e liderança geral.",
     },
     {
       id: 2,
@@ -25,7 +25,7 @@ export const teamMembers: TeamMember[] = [
       imageSrc: "https://github.com/Eduardo-BarrosoS.png",
       fallback: "EDU",
       description:
-        "Aperiam sunt autem itaque saepe laborum possimus, labore unde, necessitatibus eaque dolores neque.",
+        "Eduardo Barroso é o CEO e fundador da empresa, focado no desenvolvimento de novos negócios e parcerias estratégicas.",
     },
     {
       id: 3,
@@ -34,7 +34,7 @@ export const teamMembers: TeamMember[] = [
       imageSrc: "https://github.com/andrebellico.png",
       fallback: "PE",
       description:
-        "Repellendus, consequatur deleniti. Maxime eius enim explicabo necessitatibus itaque.",
+        "André Bellico é o Lead Designer & Developer, responsável pela criação de interfaces intuitivas e desenvolvimento de soluções inovadoras.",
     },
     {
       id: 4,
@@ -43,6 +43,6 @@ export const teamMembers: TeamMember[] = [
       imageSrc: "https://github.com/gabrielgoisdoni.png",
       fallback: "GG",
       description:
-        "Repellendus, consequatur deleniti. Maxime eius enim explicabo necessitatibus itaque.",
+        "Gabriel Gois é um desenvolvedor da empresa, contribuindo para o desenvolvimento e manutenção de nossos produtos e serviços.",
     },
   ];

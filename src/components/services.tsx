@@ -18,7 +18,7 @@ export default function ServicesSection({ services }: { services: Service[] }) {
                     {service.title}{" "}
                     <span className="text-[#F85B93]">{service.subtitle}</span>
                   </h2>
-                  <div className="text-[#C6C7C6] text-[16px] leading-[28px] flex flex-col gap-4">
+                  <div className="text-[#C6C7C6] text-[16px]  flex flex-col gap-4">
                     <p>{service.description}</p>
                   </div>
                   {service.button && (
@@ -58,7 +58,7 @@ export default function ServicesSection({ services }: { services: Service[] }) {
                     {service.title}{" "}
                     <span className="text-[#F85B93]">{service.subtitle}</span>
                   </h2>
-                  <div className="text-[#C6C7C6] text-[16px] leading-[28px] flex flex-col gap-4">
+                  <div className="text-[#C6C7C6] text-[16px]  flex flex-col gap-4">
                     <p>{service.description}</p>
                   </div>
                   {service.button && (

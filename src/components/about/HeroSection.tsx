@@ -8,7 +8,7 @@ export default function HeroSection() {
         inovadoras de <span className="text-[#F85B93]">gerenciamento</span> de
         projetos
       </h1>
-      <div className="text-gray-300 text-[14px] sm:text-[15px] md:text-[16px] leading-[24px] sm:leading-[26px] md:leading-[28px] text-center">
+      <div className="text-gray-300 text-[14px] sm:text-[15px] md:text-[16px] leading-[24px] sm:leading-[26px] md: text-center">
         Descubra nossa história, missão e compromisso para simplificar os fluxos
         de trabalho dos projetos
       </div>

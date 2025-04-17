@@ -10,7 +10,7 @@ export default function AdCard() {
           Pronto para elevar o nível do seu{" "}
           <span className="text-[#F85B93]">produto?</span>
         </h2>
-        <span className="text-[#9C9C9B] text-[16px] leading-[28px] text-center">
+        <span className="text-[#9C9C9B] text-[16px]  text-center">
           A cada dia que você passa hesitando, é uma oportunidade a mais para
           seu concorrente.
         </span>

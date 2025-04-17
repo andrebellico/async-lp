@@ -23,7 +23,7 @@ export default function Page() {
                 em uma máquina de {""}
                 <span className="text-[#F85B93]">vendas</span>
               </h1>
-              <div className="text-gray-300 sm:text-sm lg:text-base md:text-[16px] text-sm leading-[28px] text-center">
+              <div className="text-gray-300 sm:text-sm lg:text-base md:text-[16px] text-sm  text-center">
                 Criamos sites que aparecem primeiro nas pesquisas do Google
                 (SEO), inspiram confiança e atraem clientes
               </div>

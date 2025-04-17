@@ -21,7 +21,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="fixed top-0 w-full px-4 md:px-20 mt-7 border-[#20211F] border rounded-[50px] border-solid py-4 bg-[#070806] z-50">
+    <nav className="fixed top-0 left-0 right-0 px-4 md:px-20 mt-7 border-[#20211F] border rounded-[50px] border-solid py-4 bg-[#070806] z-50 max-w-7xl mx-auto">
       <div className="md:hidden flex justify-between items-center">
         <Link href="/">
           <Image src="/logo.png" alt="Logo" width={120} height={36} priority />

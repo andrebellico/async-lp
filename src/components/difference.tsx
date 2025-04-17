@@ -4,7 +4,7 @@ export default function Difference() {
       <h2 className="text-[#FFFFFF] text-4xl md:text-5xl lg:text-6xl text-center ">
         Diferenciais
       </h2>
-      <div className="text-[16px] text-[#9C9C9B] max-w-[800px] leading-[28px] text-center">
+      <div className="text-[16px] text-[#9C9C9B] max-w-[800px]  text-center">
         Queremos mudar o cenário digital do Brasil. A diferença? Ajudamos a
         colocar o seu negócio no spotlight online em apenas 7 dias, com sites
         que inspiram confiança e atraem clientes.
