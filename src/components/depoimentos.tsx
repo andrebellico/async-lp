@@ -21,11 +21,11 @@ export default function DepoimentosSection() {
     <section className=" text-white overflow-hidden relative">
       <div className="flex justify-center flex-col items-center text-center mb-12 px-4">
         <Badge title="Depoimentos" />
-        <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold">
+        <h2 className="text-4xl md:text-5xl lg:text-6xl">
           Veja o que nossos clientes falam sobre nossos serviços
         </h2>
       </div>
-      <div className="relative w-full h-56 flex items-center justify-center">
+      <div className="relative w-full h-96 flex items-center justify-center">
         <div className="absolute left-0 top-0 bottom-0 w-12 md:w-24 lg:w-40 bg-gradient-to-r from-black to-transparent z-10"></div>
         <div className="absolute right-0 top-0 bottom-0 w-12 md:w-24 lg:w-40 bg-gradient-to-l from-black to-transparent z-10"></div>
         <div className="absolute left-0 flex animate-infinite-scroll group-hover:pause-animation">

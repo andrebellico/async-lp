@@ -10,7 +10,7 @@ import { mockFaqs } from "@/mocks/faqs";
 export default function FaqsSection() {
   return (
     <div className="flex flex-col gap-10 items-center mx-auto max-w-3xl justify-center py-20">
-      <h2 className="text-[#FFFFFF] text-4xl md:text-5xl lg:text-6xl text-center font-bold">
+      <h2 className="text-[#FFFFFF] text-4xl md:text-5xl lg:text-6xl text-center ">
         Questões Frequentes
       </h2>
       <Accordion

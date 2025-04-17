@@ -23,7 +23,7 @@ export default function TeamSection() {
     <div className="py-12">
       <div className="text-center mb-8">
         <Badge title="NOSSA EQUIPE" />
-        <h2 className="text-6xl font-bold mt-2">
+        <h2 className="text-6xl mt-2">
           Conheça nosso <span className="text-[#F85B93]">time</span>
         </h2>
       </div>

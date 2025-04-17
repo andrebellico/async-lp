@@ -18,17 +18,16 @@ export default function Page() {
         <main className="flex flex-col w-full gap-20">
           <AnimatedSection>
             <section className="flex flex-col items-center h-[60vh] mt-20 justify-center gap-4">
-              <h1 className="text-white text-6xl text-center">
+              <h1 className="text-white sm:text-5xl md:text-5xl lg:text-6xl text-5xl text-center">
                 <span className="text-[#F85B93]">Transformamos</span> o seu site
                 em uma máquina de {""}
                 <span className="text-[#F85B93]">vendas</span>
               </h1>
-              <div className="text-gray-300 text-[16px] leading-[28px] text-center">
+              <div className="text-gray-300 sm:text-sm lg:text-base md:text-[16px] text-sm leading-[28px] text-center">
                 Criamos sites que aparecem primeiro nas pesquisas do Google
-                (SEO), inspiram <br />
-                confiança e atraem clientes
+                (SEO), inspiram confiança e atraem clientes
               </div>
-              <div className="flex gap-2.5 mt-4">
+              <div className="flex md:flex-col sm:flex-col lg:flex-row flex-col items-center gap-2.5 mt-4">
                 <Button
                   href="https://api.whatsapp.com/send/?phone=5511919542750"
                   variant="default"

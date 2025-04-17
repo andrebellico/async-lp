@@ -6,10 +6,10 @@ import { Button } from "@/components/ui/button";
 export default function AboutUsSection() {
   return (
     <section className="flex flex-col justify-between gap-24">
-      <div className="grid grid-cols-2 justify-between items-center gap-[100px]">
-        <div className="flex flex-col gap-6 justify-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 justify-between items-center gap-10 md:gap-[100px]">
+        <div className="flex flex-col md:text-start text-center gap-6 md:items-start items-center justify-center">
           <Badge title="  Sobre Nós" />
-          <h2 className="text-6xl">
+          <h2 className="text-4xl md:text-6xl">
             <span className="text-[#F85B93]">Revolucionando</span> o
             gerenciamento de projetos com Async
           </h2>
@@ -21,7 +21,7 @@ export default function AboutUsSection() {
           </Button>
         </div>
         <div className="items-end justify-end text-end flex">
-          <div className="text-[#C6C7C6] text-[16px] text-center leading-[28px] flex flex-col gap-4">
+          <div className="text-[#C6C7C6] text-[14px] md:text-[16px] text-center leading-[24px] md:leading-[28px] flex flex-col gap-4">
             <p>
               Na Async, nossa jornada começou com uma ideia simples, mas
               poderosa: revolucionar o gerenciamento de projetos para equipes de

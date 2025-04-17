@@ -17,7 +17,7 @@ export default function MyValue() {
     <div className="py-16 bg-black">
       <div className="items-center flex-col text-center justify-center flex mb-12">
         <Badge title="NOSSOS VALORES" />
-        <h2 className="text-4xl md:text-6xl font-semibold text-white mt-2">
+        <h2 className="text-4xl md:text-6xl  text-white mt-2">
           Entregando <span className="text-[#F85B93]">excelência</span> em
           <br />
           gerenciamento de <span className="text-[#F85B93]">projetos</span>

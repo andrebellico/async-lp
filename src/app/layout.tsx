@@ -20,7 +20,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" />
       </head>
       <body>
-        <div className="flex flex-col bg-black min-h-screen items-center relative  text-white">
+        <div className="flex flex-col bg-black min-h-screen px-4 items-center relative  text-white">
           <Navbar />
           {children}
           <Footer />
