@@ -1,5 +1,5 @@
 import React from "react";
-import Badge from "./badge";
+import Badge from "./ui/badge";
 
 const depoimentos: { name: string; depoimento: string; cargo: string }[] = [
   {

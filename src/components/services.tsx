@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { Button } from "./button";
-import Badge from "./badge";
+import { Button } from "./ui/button";
+import Badge from "./ui/badge";
 import { Service } from "@/types";
 
 export default function ServicesSection({ services }: { services: Service[] }) {

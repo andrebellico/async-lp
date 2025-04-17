@@ -1,7 +1,7 @@
 // src/components/about/AboutUsSection.tsx
 import React from "react";
-import Badge from "@/components/badge";
-import { Button } from "@/components/button";
+import Badge from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 
 const AboutUsSection = () => {
   return (

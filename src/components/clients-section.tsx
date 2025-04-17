@@ -1,7 +1,7 @@
 import Image, { StaticImageData } from "next/image";
 import React from "react";
 import VhsLogo from "./vhslogo";
-import Badge from "./badge";
+import Badge from "./ui/badge";
 
 type ImageLogo = {
   type: "image";
@@ -38,9 +38,12 @@ const logos: Logo[] = [
   { type: "component", Component: VhsLogo, alt: "VHS Logo" },
 ];
 
-export const extendedLogos: Logo[] = [...logos, ...logos, ...logos];
-
 export default function ClientsSection() {
+  const numLogos = 9; // Adjust as needed
+  const displayedLogos = logos
+    .slice(0, numLogos)
+    .concat(logos.slice(0, numLogos - (logos.length % numLogos)));
+
   return (
     <section className=" text-white  overflow-hidden relative">
       <div className="container mx-auto text-center mb-12 px-4">
@@ -52,7 +55,7 @@ export default function ClientsSection() {
         <div className="absolute left-0 top-0 bottom-0 w-20 md:w-40 bg-gradient-to-r from-black to-transparent z-10"></div>
         <div className="absolute right-0 top-0 bottom-0 w-20 md:w-40 bg-gradient-to-l from-black to-transparent z-10"></div>
         <div className="absolute left-0 flex animate-infinite-scroll group-hover:pause-animation">
-          {extendedLogos.map((logo, index) => (
+          {displayedLogos.map((logo: Logo, index: number) => (
             <div
               key={index}
               className="flex-shrink-0 w-auto mx-8 md:mx-12 flex items-center justify-center h-full"

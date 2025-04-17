@@ -3,7 +3,8 @@ import AboutUsSection from "@/components/about/AboutUsSection";
 import ImageSection from "@/components/about/ImageSection";
 import AchievementsSection from "@/components/about/AchievementsSection";
 import AdCard from "@/components/advertisement-card";
-import Teste from "@/components/about/teste";
+import TeamSection from "@/components/about/TeamSection";
+import MyValue from "@/components/about/MyValue";
 
 export default function AboutPage() {
   return (
@@ -13,7 +14,8 @@ export default function AboutPage() {
         <AboutUsSection />
         <ImageSection />
         <AchievementsSection />
-        <Teste />
+        <MyValue />
+        <TeamSection />
         <AdCard />
       </main>
     </div>
